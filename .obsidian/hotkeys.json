@@ -1,0 +1,47 @@
+{
+  "homepage:open-homepage": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "H"
+    }
+  ],
+  "obsidian-excalidraw-plugin:insert-link": [],
+  "obsidian-excalidraw-plugin:insert-link-to-element": [],
+  "editor:open-search-replace": [],
+  "obsidian-excalidraw-plugin:save": [],
+  "quickadd:choice:2162d4f4-8483-4859-a9be-d66c65a99e29": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "M"
+    }
+  ],
+  "obsidian-emoji-toolbar:emoji-picker:open-picker": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "E"
+    }
+  ],
+  "quickadd:choice:793f27ae-4172-4ab7-a87e-e6d0e7f57906": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "J"
+    }
+  ],
+  "quickadd:choice:eecc94db-1dc8-447d-b41c-1077897f745f": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "U"
+    }
+  ]
+}

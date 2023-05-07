@@ -1,0 +1,38 @@
+{
+  "menuCommands": [
+    {
+      "id": "app:go-back",
+      "name": "Navigate back",
+      "icon": "lucide-arrow-left",
+      "hotkeys": [
+        {
+          "modifiers": [
+            "Mod",
+            "Alt"
+          ],
+          "key": "ArrowLeft"
+        }
+      ]
+    },
+    {
+      "id": "app:go-forward",
+      "name": "Navigate forward",
+      "icon": "lucide-arrow-right",
+      "hotkeys": [
+        {
+          "modifiers": [
+            "Mod",
+            "Alt"
+          ],
+          "key": "ArrowRight"
+        }
+      ]
+    },
+    {
+      "name": "Homepage: Open homepage",
+      "id": "homepage:open-homepage",
+      "icon": "home"
+    }
+  ],
+  "hideTitles": []
+}

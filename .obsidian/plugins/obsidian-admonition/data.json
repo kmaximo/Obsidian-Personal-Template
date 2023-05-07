@@ -1,0 +1,37 @@
+{
+  "userAdmonitions": {
+    "dashb": {
+      "type": "dashb",
+      "color": "#7d7d7d",
+      "icon": {
+        "name": "address-book",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "injectColor": true,
+      "noTitle": false,
+      "copy": false
+    }
+  },
+  "syntaxHighlight": false,
+  "copyButton": false,
+  "version": "9.2.3",
+  "autoCollapse": true,
+  "defaultCollapseType": "open",
+  "injectColor": true,
+  "parseTitles": true,
+  "dropShadow": true,
+  "hideEmpty": false,
+  "open": {
+    "admonitions": true,
+    "icons": true,
+    "other": true,
+    "advanced": false
+  },
+  "icons": [],
+  "useFontAwesome": true,
+  "rpgDownloadedOnce": false,
+  "msDocConverted": false,
+  "useSnippet": false,
+  "snippetPath": "custom-admonitions.598e72"
+}

@@ -1,0 +1,20 @@
+{
+  "livePreview": true,
+  "readableLineLength": false,
+  "foldHeading": true,
+  "foldIndent": true,
+  "defaultViewMode": "preview",
+  "showFrontmatter": false,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Spaces",
+  "spellcheckLanguages": [
+    "pt-BR",
+    "en-US"
+  ],
+  "alwaysUpdateLinks": true,
+  "spellcheck": true,
+  "showInlineTitle": false,
+  "strictLineBreaks": false,
+  "showLineNumber": false,
+  "rightToLeft": false
+}

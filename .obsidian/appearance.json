@@ -1,0 +1,12 @@
+{
+  "accentColor": "",
+  "enabledCssSnippets": [
+    "dashboard",
+    "dashboard-ReadLineLength",
+    "Dashboard"
+  ],
+  "theme": "obsidian",
+  "cssTheme": "",
+  "nativeMenus": false,
+  "translucency": false
+}

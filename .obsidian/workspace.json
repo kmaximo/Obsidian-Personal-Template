@@ -1,0 +1,235 @@
+{
+  "main": {
+    "id": "37f8aec376e810c3",
+    "type": "split",
+    "children": [
+      {
+        "id": "8624ff8461a367f4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9e3fa09ce9ac30a3",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HOME.md",
+                "mode": "preview",
+                "source": false
+              },
+              "pinned": true
+            }
+          }
+        ],
+        "stacked": true
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a790316918dc28a4",
+    "type": "split",
+    "children": [
+      {
+        "id": "d85fce04150ae17d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c772cc93f3631887",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "cd3152e9b9e72964",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "37468c4d6ce31ad4",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "d30b0a043736c848",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "b2a50d9b289446b3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 322.5
+  },
+  "right": {
+    "id": "bc2ffd65d155bd31",
+    "type": "split",
+    "children": [
+      {
+        "id": "e85f8769b42cf6b1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "26fa87805791edd1",
+            "type": "leaf",
+            "state": {
+              "type": "side-panel-control-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "0280979da74803eb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "cf951fa8c0928e22",
+            "type": "leaf",
+            "state": {
+              "type": "inline-scripts-button-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "bea6f4b682de3780",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          },
+          {
+            "id": "c3fccdd773df8a31",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "HOME.md",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "47ee317d0a731991",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "HOME.md"
+              }
+            }
+          },
+          {
+            "id": "446d6e14667bcb24",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "HOME.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 375.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "homepage:Open homepage": false,
+      "graph:Open graph view": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
+    }
+  },
+  "active": "9e3fa09ce9ac30a3",
+  "lastOpenFiles": [
+    "README.md",
+    "HOME.md",
+    "9 Setup/Templates/project-task-template.md",
+    "3 Projects/Tasks/Task P1.md",
+    "4 Sources/Estimativas de Projetos.md",
+    "1 Atlas/Contact MOC.md",
+    "1 Atlas/Projects MOC.md",
+    "Project Board.md",
+    "3 Projects/P1.md",
+    "3 Projects/P2.md",
+    "9 Setup/Templates/project-template.md",
+    "3 Projects/Tasks/Task P2.md",
+    "Untitled.md",
+    "9 Setup/+ Sobre o Setup.md",
+    "HOME TEST.md",
+    "dashboard.css",
+    "1 Atlas/Series MOC.md",
+    "1 Atlas/Project MOC.md",
+    "3 Projects/testeste.md",
+    "3 Projects/Tasks/teste.md",
+    "3 Projects/Tasks/Teste.md",
+    "3 Projects/Tasks/testre.md",
+    "3 Projects/Tasks/teste1.md",
+    "[object Object.md",
+    "3 Projects/Tasks/tasjteste.md",
+    "3 Projects/Tasks/sdfdfsfds.md",
+    "3 Projects/teste.md",
+    "9 Setup/Scripts/views/total-progress-bar/view.js",
+    "9 Setup/Scripts/views/total-progress-bar",
+    "9 Setup/Scripts/views/target/view.js",
+    "9 Setup/Scripts/views/target",
+    "9 Setup/Scripts/views/progress-bar/view.js",
+    "9 Setup/Scripts/views/progress-bar",
+    "9 Setup/Scripts/views/progress/view.js",
+    "9 Setup/Scripts/views/progress",
+    "9 Setup/Scripts/views"
+  ]
+}

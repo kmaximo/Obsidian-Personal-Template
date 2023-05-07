@@ -1,0 +1,150 @@
+{
+  "choices": [
+    {
+      "id": "793f27ae-4172-4ab7-a87e-e6d0e7f57906",
+      "name": "Add Project",
+      "type": "Macro",
+      "command": true,
+      "macroId": "daf1a56b-0f4b-4651-9188-b40aec500468"
+    },
+    {
+      "id": "eecc94db-1dc8-447d-b41c-1077897f745f",
+      "name": "Add Task Project",
+      "type": "Template",
+      "command": true,
+      "templatePath": "9 Setup/Templates/project-task-template.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{VALUE:Add Task Project}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "3 Projects/Tasks"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": true,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    }
+  ],
+  "macros": [
+    {
+      "name": "addproject",
+      "id": "daf1a56b-0f4b-4651-9188-b40aec500468",
+      "commands": [
+        {
+          "name": "Create Project Note",
+          "type": "NestedChoice",
+          "id": "07684c19-c102-48a6-8131-d40c7cfc85fd",
+          "choice": {
+            "id": "5413998b-577e-4dc3-a9d8-b3f1a64f9dc3",
+            "name": "Create Project Note",
+            "type": "Template",
+            "command": false,
+            "templatePath": "9 Setup/Templates/project-template.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{VALUE:Add Project}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "3 Projects"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": true,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "ac0905a8-bb4e-4977-8a85-3b64356006c8",
+          "time": 200
+        },
+        {
+          "name": "Capture to project board",
+          "type": "NestedChoice",
+          "id": "a6f89704-06ac-4da2-b872-9e65a55cf7ee",
+          "choice": {
+            "id": "fae0d11b-933f-40cc-9a04-50ddad9b3387",
+            "name": "Capture to project board",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "Project Board.md",
+            "captureToActiveFile": false,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "[[{{VALUE:Add Project}}|{{VALUE:Add Project}}]]"
+            },
+            "insertAfter": {
+              "enabled": true,
+              "after": "## todo",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": true,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
+  "inputPrompt": "single-line",
+  "devMode": false,
+  "templateFolderPath": "9 Setup/Templates",
+  "announceUpdates": true,
+  "version": "0.23.0",
+  "ai": {
+    "OpenAIApiKey": "",
+    "defaultModel": "Ask me",
+    "defaultSystemPrompt": "As an AI assistant within Obsidian, your primary goal is to help users manage their ideas and knowledge more effectively. Format your responses using Markdown syntax. Please use the [[Obsidian]] link format. You can write aliases for the links by writing [[Obsidian|the alias after the pipe symbol]]. To use mathematical notation, use LaTeX syntax. LaTeX syntax for larger equations should be on separate lines, surrounded with double dollar signs ($$). You can also inline math expressions by wrapping it in $ symbols. For example, use $$w_{ij}^{\text{new}}:=w_{ij}^{\text{current}}+etacdotdelta_jcdot x_{ij}$$ on a separate line, but you can write \"($eta$ = learning rate, $delta_j$ = error term, $x_{ij}$ = input)\" inline.",
+    "promptTemplatesFolderPath": "",
+    "showAssistant": true
+  },
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
+    "setVersionAfterUpdateModalRelease": true
+  }
+}
