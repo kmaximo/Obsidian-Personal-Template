@@ -5,7 +5,7 @@ let title;
 if (!hasTitle){
 	title = await tp.system.prompt("Nome:");
 	await tp.file.rename(title);
-	await tp.file.move("Cards/People/"+title);
+	await tp.file.move("2 Cards/People/"+title);
 } else {
 	title = tp.file.title;
 }
