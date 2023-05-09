@@ -15,7 +15,7 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "Sources",
+      "folder": "4 Sources",
       "template": "9 Setup/Templates/template-note.md"
     },
     {
